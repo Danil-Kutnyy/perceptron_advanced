@@ -4,13 +4,9 @@
 
 This work explores the implementation and performance of complex neural network architectures designed to process individual input features with greater computational depth, diverging from the traditional \(x_i \cdot w_i\) computations. The proposed **DeepLinear** and **SubNetwork** models replace simple linear processing with multi-layer sub-networks for weights and biases. Despite promising theoretical underpinnings, the experimental results demonstrate limited performance gains on MNIST digit classification, achieving 95.99% accuracy compared to 97.56% by a baseline fully connected network. The findings suggest that while introducing architectural complexity has potential, achieving superior performance requires further refinement.
 
----
-
 ## Introduction
 
 Traditional fully connected neural networks compute each output neuron as a sum of weighted inputs plus biases. This simplicity makes them computationally efficient but limits their ability to model complex relationships within the data. Inspired by biological neural computation, we introduce **DeepLinear**, which replaces linear operations with sub-networks for processing weights and biases. These sub-networks are tasked with extracting richer representations from inputs. This work evaluates the performance of DeepLinear against a baseline model and discusses its implications for complex function modeling.
-
----
 
 ## Methodology
 
