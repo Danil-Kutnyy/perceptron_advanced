@@ -1,8 +1,8 @@
-# Exploring Complex Neural Network Architectures: DeepLinear and SubNetwork Models for MNIST Classification
+# Exploring more complex alternative perceptron architectures: DeepLinear layer based Models for MNIST Classification
 
 ## Abstract
 
-This work explores the implementation and performance of complex neural network architectures designed to process individual input features with greater computational depth, diverging from the traditional \(x_i \cdot w_i\) computations. The proposed **DeepLinear** and **SubNetwork** models replace simple linear processing with multi-layer sub-networks for weights and biases. Despite promising theoretical underpinnings, the experimental results demonstrate limited performance gains on MNIST digit classification, achieving 95.99% accuracy compared to 97.56% by a baseline fully connected network. The findings suggest that while introducing architectural complexity has potential, achieving superior performance requires further refinement.
+This work explores the implementation and performance of complex neural network architectures designed to process individual input features with greater computational depth, diverging from the traditional \(x_i \cdot w_i\) computations. The proposed **DeepLinear** layered model replace simple linear processing with multi-layer sub-networks for weights and biases. Despite promising theoretical underpinnings, the experimental results demonstrate limited performance gains on MNIST digit classification, achieving 95.99% accuracy compared to 97.56% by a baseline fully connected network. The findings suggest that while introducing architectural complexity has potential, achieving superior performance requires further refinement.
 
 ## Introduction
 
